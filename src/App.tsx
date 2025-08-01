@@ -21,7 +21,7 @@ function App() {
 
  return (
    <main>
-     <h1>{user?.signInDetails?.loginId}'s todos</h1> // 変更
+     <h1>{user?.signInDetails?.loginId}'s todos</h1>
      <button onClick={createTodo}>+ new</button>
      <ul>
        {todos.map((todo) => (
@@ -35,7 +35,7 @@ function App() {
          Review next step of this tutorial.
        </a>
      </div>
-     <button onClick={signOut}>Sign out</button>　// 追加
+     <button onClick={signOut}>Sign out</button>
    </main>
  );
 } export default App;
